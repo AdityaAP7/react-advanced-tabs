@@ -4,4 +4,10 @@ interface TabListProps {
     children: ReactNode;
     className?: string;
   }
-  
+  export const TabList: React.FC<TabListProps> = ({ children, className }) => {
+    return (
+      <div className={`tab-list ${className || ''}`}>
+        {children}
+      </div>
+    );
+  };
