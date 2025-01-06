@@ -14,3 +14,5 @@ interface TabProps {
     children,
     className = '',
     activeClassName = ''
+}) => {
+    const { activeIndex, setActiveIndex } = useContext(TabsContext);
