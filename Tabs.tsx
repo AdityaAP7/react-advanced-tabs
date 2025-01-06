@@ -11,3 +11,7 @@ interface TabsContextProps {
     setActiveIndex: () => {}
   });
   
+  interface TabsProps {
+    defaultIndex?: number;
+    children: ReactNode;
+  }
