@@ -22,3 +22,6 @@ interface TabProps {
     const handleClick = () => {
       setActiveIndex(index);
     };
+
+    return (
+        <button
