@@ -16,3 +16,9 @@ interface TabProps {
     activeClassName = ''
 }) => {
     const { activeIndex, setActiveIndex } = useContext(TabsContext);
+
+    const isActive = activeIndex === index;
+
+    const handleClick = () => {
+      setActiveIndex(index);
+    };
