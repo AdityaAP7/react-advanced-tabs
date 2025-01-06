@@ -1,0 +1,31 @@
+{
+    "name": "react-advanced-tabs",
+    "version": "1.0.0",
+    "description": "A full-fledged navigation tab component for React",
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "dev": "tsc --watch",
+      "test": "echo \"No tests specified\" && exit 0"
+    },
+    "keywords": [
+      "react",
+      "tabs",
+      "navigation",
+      "ui-component"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+      "typescript": "^4.0.0",
+      "@types/react": "^18.0.0",
+      "@types/react-dom": "^18.0.0"
+    }
+  }
+  
