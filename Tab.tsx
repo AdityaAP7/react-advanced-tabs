@@ -27,3 +27,6 @@ interface TabProps {
         <button
         className={`tab ${className} ${isActive ? activeClassName : ''}`}
         onClick={handleClick}
+
+        >
+      {children}
