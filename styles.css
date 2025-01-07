@@ -22,3 +22,11 @@
   .tab:hover {
     background-color: #ddd;
   }
+
+  .tab.active {
+    background-color: #ccc;
+    font-weight: bold;
+    outline: none;
+    cursor: default;
+  }
+  
