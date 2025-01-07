@@ -29,4 +29,7 @@
     outline: none;
     cursor: default;
   }
-  
+  .tab-panel {
+    padding: 16px;
+    border: 1px solid #ccc;
+  }  
