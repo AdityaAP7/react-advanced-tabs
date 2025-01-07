@@ -11,3 +11,6 @@ interface TabPanelProps {
     const { activeIndex } = useContext(TabsContext);
     if (activeIndex !== index) {
         return null;
+    }
+    return (
+      <div className={`tab-panel ${className || ''}`}>
