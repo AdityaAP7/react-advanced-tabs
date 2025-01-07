@@ -1,0 +1,6 @@
+/* src/styles.css */
+.tabs-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
