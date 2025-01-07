@@ -14,3 +14,8 @@ interface TabPanelProps {
     }
     return (
       <div className={`tab-panel ${className || ''}`}>
+
+{children}
+    </div>
+  );
+};
