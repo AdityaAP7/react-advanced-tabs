@@ -18,3 +18,7 @@
     transition: background-color 0.3s;
     margin-right: 8px;
   }
+
+  .tab:hover {
+    background-color: #ddd;
+  }
