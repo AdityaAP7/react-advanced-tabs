@@ -9,3 +9,12 @@
     display: flex;
     margin-bottom: 1rem;
   }
+
+  .tab {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+    margin-right: 8px;
+  }
