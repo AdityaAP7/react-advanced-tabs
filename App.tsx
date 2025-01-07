@@ -5,4 +5,4 @@ import {
     TabList,
     Tab,
     TabPanel
-  } from 'react-advanced-tabs';
+  } from 'react-advanced-tabs';  return (
