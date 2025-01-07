@@ -7,3 +7,4 @@ import {
     TabPanel
   } from 'react-advanced-tabs';  return (
     <div style={{ width: '600px', margin: '0 auto' }}>
+         <Tabs defaultIndex={0}></Tabs>
