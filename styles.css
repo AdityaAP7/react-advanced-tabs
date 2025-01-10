@@ -22,7 +22,16 @@
   .tab:hover {
     background-color: #ddd;
   }
+.tabs-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
+  .tab-list {
+    display: flex;
+    margin-bottom: 1rem;
+  }
   .tab.active {
     background-color: #ccc;
     font-weight: bold;
