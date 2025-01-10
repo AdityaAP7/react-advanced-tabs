@@ -28,6 +28,11 @@ interface TabProps {
         className={`tab ${className} ${isActive ? activeClassName : ''}`}
         onClick={handleClick}
 
+    const isActive = activeIndex === index;
+
+    const handleClick = () => {
+      setActiveIndex(index);
+    };
 
 interface TabProps {
     index: number;
