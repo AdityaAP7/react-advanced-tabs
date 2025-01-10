@@ -7,7 +7,9 @@ interface TabProps {
     children: React.ReactNode;
     className?: string;
     activeClassName?: string;
-  }
+  }    const handleClick = () => {
+      setActiveIndex(index);
+    };
   
   export const Tab: React.FC<TabProps> = ({
     index,
