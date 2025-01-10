@@ -27,6 +27,10 @@ interface TabProps {
         <button
         className={`tab ${className} ${isActive ? activeClassName : ''}`}
         onClick={handleClick}
+   return (
+        <button
+        className={`tab ${className} ${isActive ? activeClassName : ''}`}
+        onClick={handleClick}
 
     const isActive = activeIndex === index;
 
