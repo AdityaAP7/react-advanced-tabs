@@ -5,7 +5,7 @@ interface TabListProps {
     className?: string;
   }
   export const TabList: React.FC<TabListProps> = ({ children, className }) => {
-    return (
+    return (export const TabList: React.FC<TabListProps> = ({ children, className }) => {
       <div className={`tab-list ${className || ''}`}>
         {children}
       </div>
