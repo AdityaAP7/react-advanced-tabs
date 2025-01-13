@@ -64,3 +64,12 @@ interface TabProps {
     children,
     className = '',
     activeClassName = ''
+interface TabProps {
+    index: number;
+    children: React.ReactNode;
+    className?: string;
+    activeClassName?: string;
+  }
+          >
+      {children}
+  export const Tab
