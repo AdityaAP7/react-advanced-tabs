@@ -46,6 +46,10 @@ interface TabProps {
     activeClassName?: string;
   }    const handleClick = () => {
       setActiveIndex(index);
+    };const isActive = activeIndex === index;
+
+    const handleClick = () => {
+      setActiveIndex(index);
     };
     const handleClick = () => {
       setActiveIndex(index);
