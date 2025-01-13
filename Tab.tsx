@@ -39,7 +39,14 @@ interface TabProps {
         className={`tab ${className} ${isActive ? activeClassName : ''}`}
         onClick={handleClick}
     const isActive = activeIndex === index;
-
+interface TabProps {
+    index: number;
+    children: React.ReactNode;
+    className?: string;
+    activeClassName?: string;
+  }    const handleClick = () => {
+      setActiveIndex(index);
+    };
     const handleClick = () => {
       setActiveIndex(index);
     };
