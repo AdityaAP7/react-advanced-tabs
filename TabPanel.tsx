@@ -21,7 +21,12 @@ interface TabPanelProps {
   export const TabPanel: React.FC<TabPanelProps> = ({ index, children, className }) => {
     const { activeIndex } = useContext(TabsContext);
     if (activeIndex !== index) {
+        return null;export const TabPanel: React.FC<TabPanelProps> = ({ index, children, className }) => {
+    const { activeIndex } = useContext(TabsContext);
+    if (activeIndex !== index) {
         return null;
+    }    className?: string;
+  }
     }    className?: string;
   }
 {children}export const TabPanel: React.FC<TabPanelProps> = ({ index, children, className }) => {
