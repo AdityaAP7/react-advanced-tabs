@@ -12,4 +12,6 @@ export const Tab: React.FC<TabProps> = ({
   className = '',
   activeClassName = ''
   }) => {
+    const { activeIndex, setActiveIndex } = useContext(TabsContext);
+
 
