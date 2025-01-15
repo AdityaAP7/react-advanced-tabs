@@ -23,6 +23,7 @@ export const Tab: React.FC<TabProps> = ({
  <button
       className={`tab ${className} ${isActive ? activeClassName : ''}`}
 
+      onClick={handleClick}
 
 
 
