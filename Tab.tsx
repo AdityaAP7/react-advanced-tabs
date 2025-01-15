@@ -11,3 +11,5 @@ export const Tab: React.FC<TabProps> = ({
   children,
   className = '',
   activeClassName = ''
+  }) => {
+
