@@ -20,7 +20,7 @@ export const Tab: React.FC<TabProps> = ({
         setActiveIndex(index);
     };
     return (
-
+ <button
 
 
 
