@@ -15,6 +15,8 @@ export const Tab: React.FC<TabProps> = ({
     const { activeIndex, setActiveIndex } = useContext(TabsContext);
     // Check if this tab is the active tab
   const isActive = activeIndex === index;
+    // Update the active index when clicked
+
 
 
 
