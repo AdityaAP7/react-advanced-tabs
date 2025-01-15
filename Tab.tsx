@@ -17,6 +17,8 @@ export const Tab: React.FC<TabProps> = ({
   const isActive = activeIndex === index;
     // Update the active index when clicked
   const handleClick = () => {
+        setActiveIndex(index);
+
 
 
 
