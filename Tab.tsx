@@ -8,3 +8,4 @@ interface TabProps {
 }
 export const Tab: React.FC<TabProps> = ({
   index,
+  children,
