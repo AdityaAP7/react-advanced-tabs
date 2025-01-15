@@ -6,3 +6,4 @@ interface TabProps {
   className?: string;
   activeClassName?: string;
 }
+export const Tab: React.FC<TabProps> = ({
