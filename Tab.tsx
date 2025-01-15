@@ -4,3 +4,4 @@ interface TabProps {
   index: number;
   children: React.ReactNode;
   className?: string;
+  activeClassName?: string;
