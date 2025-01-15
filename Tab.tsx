@@ -13,5 +13,7 @@ export const Tab: React.FC<TabProps> = ({
   activeClassName = ''
   }) => {
     const { activeIndex, setActiveIndex } = useContext(TabsContext);
+    // Check if this tab is the active tab
+
 
 
