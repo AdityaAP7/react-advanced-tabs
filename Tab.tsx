@@ -21,6 +21,7 @@ export const Tab: React.FC<TabProps> = ({
     };
     return (
  <button
+      className={`tab ${className} ${isActive ? activeClassName : ''}`}
 
 
 
