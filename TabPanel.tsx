@@ -14,3 +14,6 @@ export const TabPanel: React.FC<TabPanelProps> = ({ index, children, className }
   return (
     <div className={`tab-panel ${className || ''}`}>
       {children}
+   </div>
+  );
+};
