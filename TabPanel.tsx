@@ -5,3 +5,4 @@ interface TabPanelProps {
   index: number;
   children: React.ReactNode;
   className?: string;
+}
