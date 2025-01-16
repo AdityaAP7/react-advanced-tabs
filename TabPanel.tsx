@@ -6,3 +6,4 @@ interface TabPanelProps {
   children: React.ReactNode;
   className?: string;
 }
+export const TabPanel: React.FC<TabPanelProps> = ({ index, children, className }) => {
