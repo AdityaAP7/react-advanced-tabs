@@ -2,3 +2,4 @@
 import React, { useContext } from 'react';
 import { TabsContext } from './Tabs';
 interface TabPanelProps {
+  index: number;
