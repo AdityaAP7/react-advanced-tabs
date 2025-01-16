@@ -7,3 +7,4 @@ interface TabPanelProps {
   className?: string;
 }
 export const TabPanel: React.FC<TabPanelProps> = ({ index, children, className }) => {
+  const { activeIndex } = useContext(TabsContext);
