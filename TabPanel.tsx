@@ -11,3 +11,4 @@ export const TabPanel: React.FC<TabPanelProps> = ({ index, children, className }
   if (activeIndex !== index) {
     return null;
 }
+  return (
