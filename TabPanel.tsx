@@ -8,3 +8,4 @@ interface TabPanelProps {
 }
 export const TabPanel: React.FC<TabPanelProps> = ({ index, children, className }) => {
   const { activeIndex } = useContext(TabsContext);
+  if (activeIndex !== index) {
