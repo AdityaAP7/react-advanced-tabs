@@ -4,3 +4,4 @@ import { TabsContext } from './Tabs';
 interface TabPanelProps {
   index: number;
   children: React.ReactNode;
+  className?: string;
