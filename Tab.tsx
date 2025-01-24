@@ -29,3 +29,4 @@ export const Tab: React.FC<TabProps> = ({
   disabled = false,
   onSelect,
   id,
+  ariaControls,
