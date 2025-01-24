@@ -35,3 +35,4 @@ export const Tab: React.FC<TabProps> = ({
   // Check if this tab is the active tab
   const isActive = activeIndex === index;
   // Handle user clicking on the tab
+  const handleClick = () => {
