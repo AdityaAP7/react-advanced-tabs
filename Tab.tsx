@@ -22,3 +22,4 @@ interface TabProps {
  ariaControls?: string;
 }
 export const Tab: React.FC<TabProps> = ({
+  index,
