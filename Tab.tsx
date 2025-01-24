@@ -42,3 +42,4 @@ export const Tab: React.FC<TabProps> = ({
  };
 
   // Handle keyboard navigation (example uses left/right arrow)
+  const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
