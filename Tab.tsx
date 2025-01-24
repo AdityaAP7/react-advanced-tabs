@@ -6,3 +6,4 @@ interface TabProps {
   children: React.ReactNode;
   className?: string;
   className?: string;
+  disabled?: boolean;
