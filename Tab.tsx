@@ -32,3 +32,4 @@ export const Tab: React.FC<TabProps> = ({
   ariaControls,
 }) => {
   const { activeIndex, setActiveIndex } = useContext(TabsContext);
+  // Check if this tab is the active tab
