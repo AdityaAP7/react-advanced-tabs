@@ -37,3 +37,4 @@ export const Tab: React.FC<TabProps> = ({
   // Handle user clicking on the tab
   const handleClick = () => {
     if (disabled) return; // If disabled, do nothing
+    setActiveIndex(index);
