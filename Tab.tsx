@@ -7,3 +7,6 @@ interface TabProps {
   className?: string;
   className?: string;
   disabled?: boolean;
+ /**
+   * Callback fired when the tab is selected.
+   */
