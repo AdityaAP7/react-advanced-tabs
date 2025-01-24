@@ -19,3 +19,5 @@ interface TabProps {
    * If you have a corresponding TabPanel with an id, you can place that ID here so screen readers
    * will know which panel this tab controls.
    */
+ ariaControls?: string;
+}
