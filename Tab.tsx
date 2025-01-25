@@ -20,7 +20,10 @@ interface TabProps {
    * will know which panel this tab controls.
    */
  ariaControls?: string;
-}
+}  /**
+   * The HTML `id` attribute for the tab (can be used to match `aria-controls` of a TabPanel).
+   */
+  id?: string;
 export const Tab: React.FC<TabProps> = ({
   index,
   children,
