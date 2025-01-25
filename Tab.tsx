@@ -39,6 +39,9 @@ export const Tab: React.FC<TabProps> = ({
     if (disabled) return; // If disabled, do nothing
     setActiveIndex(index);
     onSelect?.(index);
+    
+  const isActive = activeIndex === index;
+
  };
 
   // Handle keyboard navigation (example uses left/right arrow)
