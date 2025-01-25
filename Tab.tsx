@@ -43,7 +43,7 @@ export const Tab: React.FC<TabProps> = ({
   const isActive = activeIndex === index;
 
  };
-
+    setActiveIndex(index);
   // Handle keyboard navigation (example uses left/right arrow)
   const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
     if (disabled) return;
