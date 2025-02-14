@@ -36,3 +36,4 @@ export const Tab: React.FC<TabProps> = ({
   className = '',
   activeClassName = '',
   disabled = false,
+  onSelect,
