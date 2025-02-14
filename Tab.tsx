@@ -24,3 +24,4 @@ interface TabProps {
    * The HTML `id` attribute for the tab (can be used to match `aria-controls` of a TabPanel).
    */
   id?: string;
+  /**
