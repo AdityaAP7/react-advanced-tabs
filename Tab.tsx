@@ -29,3 +29,4 @@ interface TabProps {
    * know which panel this tab controls.
    */
   ariaControls?: string;
+}
