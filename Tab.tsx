@@ -13,3 +13,4 @@ interface TabProps {
    */
   activeClassName?: string;
   /**
+   * Disables the tab, preventing interaction.
