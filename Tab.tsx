@@ -15,3 +15,4 @@ interface TabProps {
   /**
    * Disables the tab, preventing interaction.
    */
+  disabled?: boolean;
