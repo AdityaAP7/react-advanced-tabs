@@ -18,3 +18,4 @@ interface TabProps {
   disabled?: boolean;
   /**
    * Callback fired when the tab is selected.
+   */
