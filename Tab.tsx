@@ -20,3 +20,4 @@ interface TabProps {
    * Callback fired when the tab is selected.
    */
   onSelect?: (index: number) => void;
+  /**
