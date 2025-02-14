@@ -26,3 +26,4 @@ interface TabProps {
   id?: string;
   /**
    * If you have a corresponding TabPanel with the same id, place that ID here so screen readers
+   * know which panel this tab controls.
