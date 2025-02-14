@@ -8,3 +8,5 @@ interface TabProps {
    */
   className?: string;
   /**
+   * Additional class names to apply when the tab is active.
+
