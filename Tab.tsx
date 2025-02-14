@@ -7,3 +7,4 @@ interface TabProps {
    * Additional class names to apply to the tab.
    */
   className?: string;
+  /**
