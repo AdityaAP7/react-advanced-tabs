@@ -5,3 +5,4 @@ interface TabProps {
   children: React.ReactNode;
   /**
    * Additional class names to apply to the tab.
+   */
