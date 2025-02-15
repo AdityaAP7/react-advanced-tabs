@@ -40,3 +40,4 @@ export const Tab: React.FC<TabProps> = ({
   id,
   ariaControls,
 }) => {
+  const { activeIndex, setActiveIndex } = useContext(TabsContext);
