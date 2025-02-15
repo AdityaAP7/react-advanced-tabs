@@ -47,3 +47,4 @@ export const Tab: React.FC<TabProps> = ({
     setActiveIndex(index);
     onSelect?.(index);
   };
+  const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
