@@ -57,3 +57,4 @@ export const Tab: React.FC<TabProps> = ({
     <button
       role="tab"
       id={id}
+      aria-controls={ariaControls}
