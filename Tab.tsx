@@ -59,3 +59,4 @@ export const Tab: React.FC<TabProps> = ({
       id={id}
       aria-controls={ariaControls}
       aria-selected={isActive}
+      disabled={disabled}
