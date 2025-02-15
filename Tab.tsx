@@ -67,3 +67,4 @@ export const Tab: React.FC<TabProps> = ({
       {children}
     </button>
   );
+};
