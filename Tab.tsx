@@ -48,3 +48,4 @@ export const Tab: React.FC<TabProps> = ({
     onSelect?.(index);
   };
   const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
+    if (disabled) return;
