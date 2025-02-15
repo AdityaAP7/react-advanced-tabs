@@ -56,3 +56,4 @@ export const Tab: React.FC<TabProps> = ({
   return (
     <button
       role="tab"
+      id={id}
