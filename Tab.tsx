@@ -65,3 +65,4 @@ export const Tab: React.FC<TabProps> = ({
       onKeyDown={handleKeyDown}
     >
       {children}
+    </button>
