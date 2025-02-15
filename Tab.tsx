@@ -39,3 +39,4 @@ export const Tab: React.FC<TabProps> = ({
   onSelect,
   id,
   ariaControls,
+}) => {
