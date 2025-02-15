@@ -63,3 +63,4 @@ export const Tab: React.FC<TabProps> = ({
       className={`${className} ${isActive ? activeClassName : ''}`}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
+    >
