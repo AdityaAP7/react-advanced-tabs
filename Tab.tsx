@@ -54,3 +54,4 @@ export const Tab: React.FC<TabProps> = ({
     // if (e.key === 'ArrowLeft') { ... }
   };
   return (
+    <button
