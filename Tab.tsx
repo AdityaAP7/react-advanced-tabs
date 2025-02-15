@@ -44,3 +44,4 @@ export const Tab: React.FC<TabProps> = ({
   const isActive = activeIndex === index;
   const handleClick = () => {
     if (disabled) return; // If disabled, do nothing
+    setActiveIndex(index);
