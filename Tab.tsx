@@ -46,3 +46,4 @@ export const Tab: React.FC<TabProps> = ({
     if (disabled) return; // If disabled, do nothing
     setActiveIndex(index);
     onSelect?.(index);
+  };
