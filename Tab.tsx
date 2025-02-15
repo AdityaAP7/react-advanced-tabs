@@ -53,3 +53,4 @@ export const Tab: React.FC<TabProps> = ({
     // if (e.key === 'ArrowRight') { ... }
     // if (e.key === 'ArrowLeft') { ... }
   };
+  return (
