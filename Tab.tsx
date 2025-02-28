@@ -9,3 +9,4 @@ interface TabProps {
    */
 
   activeClassName?: string;
+export const Tab: React.FC<TabProps> = ({
