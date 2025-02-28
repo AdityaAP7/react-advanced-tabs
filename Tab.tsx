@@ -16,3 +16,5 @@ children,
   activeClassName = '',
   disabled = false,
   onSelect,
+
+  const { activeIndex, setActiveIndex } = useContext(TabsContext);
