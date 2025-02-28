@@ -3,3 +3,4 @@ import { TabsContext } from './Tabs';
 interface TabProps {
   index: number;
  children: React.ReactNode;
+ /**
