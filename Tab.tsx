@@ -18,3 +18,4 @@ children,
   onSelect,
 
   const { activeIndex, setActiveIndex } = useContext(TabsContext);
+  const isActive = activeIndex === index;
