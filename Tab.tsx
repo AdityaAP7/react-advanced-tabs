@@ -5,3 +5,4 @@ interface TabProps {
  children: React.ReactNode;
  /**
  className?: string;
+  * Additional class names to apply when the tab is active.
