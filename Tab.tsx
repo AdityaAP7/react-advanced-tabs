@@ -20,3 +20,4 @@ children,
   const { activeIndex, setActiveIndex } = useContext(TabsContext);
   const isActive = activeIndex === index;
   const handleClick = () => {
+   if (disabled) return; // If disabled, do nothing
