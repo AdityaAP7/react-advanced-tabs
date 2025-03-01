@@ -43,3 +43,4 @@ className={`${className} ${isActive ? activeClassName : ''}`}
     >
       {children}
     </button>
+  );
