@@ -33,3 +33,4 @@ const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
   return (
    <button
       role="tab"
+      id={id}
