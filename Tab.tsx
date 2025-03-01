@@ -23,3 +23,4 @@ children,
    if (disabled) return; // If disabled, do nothing
     setActiveIndex(index);
  onSelect?.(index);
+  };
