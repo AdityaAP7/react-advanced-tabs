@@ -36,3 +36,4 @@ const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
       id={id}
       aria-controls={ariaControls}
  aria-selected={isActive}
+   disabled={disabled}
