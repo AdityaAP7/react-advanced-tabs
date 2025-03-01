@@ -41,3 +41,4 @@ className={`${className} ${isActive ? activeClassName : ''}`}
       onClick={handleClick}
    onKeyDown={handleKeyDown}
     >
+      {children}
