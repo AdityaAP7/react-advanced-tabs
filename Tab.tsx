@@ -29,3 +29,4 @@ const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
    // Example: handle arrow key navigation if needed
     // if (e.key === 'ArrowRight') { ... }
   // if (e.key === 'ArrowLeft') { ... }
+  };
