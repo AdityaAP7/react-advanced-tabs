@@ -34,3 +34,4 @@ const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
    <button
       role="tab"
       id={id}
+      aria-controls={ariaControls}
