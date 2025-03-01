@@ -25,3 +25,4 @@ children,
  onSelect?.(index);
   };
 const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
+    if (disabled) return;
