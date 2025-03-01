@@ -39,3 +39,4 @@ const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
    disabled={disabled}
 className={`${className} ${isActive ? activeClassName : ''}`}
       onClick={handleClick}
+   onKeyDown={handleKeyDown}
