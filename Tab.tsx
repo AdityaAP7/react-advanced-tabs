@@ -37,3 +37,4 @@ const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
       aria-controls={ariaControls}
  aria-selected={isActive}
    disabled={disabled}
+className={`${className} ${isActive ? activeClassName : ''}`}
