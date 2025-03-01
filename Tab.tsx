@@ -24,3 +24,4 @@ children,
     setActiveIndex(index);
  onSelect?.(index);
   };
+const handleKeyDown = (e: KeyboardEvent<HTMLButtonElement>) => {
