@@ -6,3 +6,4 @@ import React, {
   memo
 } from 'react';
 import { TabsContext } from './Tabs';
+interface TabProps {
