@@ -5,3 +5,4 @@ import React, {
   ReactNode,
   memo
 } from 'react';
+import { TabsContext } from './Tabs';
