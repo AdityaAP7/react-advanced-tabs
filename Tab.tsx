@@ -15,3 +15,4 @@ interface TabProps {
    * Content of the tab (often text or an icon).
    */
   children: ReactNode;
+  /**
