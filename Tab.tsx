@@ -7,3 +7,4 @@ import React, {
 } from 'react';
 import { TabsContext } from './Tabs';
 interface TabProps {
+  /**
