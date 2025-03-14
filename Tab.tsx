@@ -11,3 +11,4 @@ interface TabProps {
    * The index of this tab within its Tabs parent.
    */
   index: number;
+  /**
