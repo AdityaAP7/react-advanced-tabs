@@ -12,3 +12,4 @@ interface TabProps {
    */
   index: number;
   /**
+   * Content of the tab (often text or an icon).
