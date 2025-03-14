@@ -17,3 +17,4 @@ interface TabProps {
   children: ReactNode;
   /**
    * Additional class name(s) for the tab button.
+   */
