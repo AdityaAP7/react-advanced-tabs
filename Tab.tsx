@@ -23,3 +23,4 @@ interface TabProps {
    * Class name(s) applied when the tab is active.
    */
   activeClassName?: string;
+  /**
