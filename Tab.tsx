@@ -19,3 +19,4 @@ interface TabProps {
    * Additional class name(s) for the tab button.
    */
   className?: string;
+  /**
