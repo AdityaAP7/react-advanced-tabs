@@ -20,3 +20,4 @@ interface TabProps {
    */
   className?: string;
   /**
+   * Class name(s) applied when the tab is active.
