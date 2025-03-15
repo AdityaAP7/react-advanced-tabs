@@ -32,3 +32,4 @@ interface TabProps {
    */
   onSelect?: (index: number) => void;
   /**
+   * Tab button ID for a11y (if needed).
