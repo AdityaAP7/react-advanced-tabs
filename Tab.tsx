@@ -34,3 +34,4 @@ interface TabProps {
   /**
    * Tab button ID for a11y (if needed).
    */
+  id?: string;
