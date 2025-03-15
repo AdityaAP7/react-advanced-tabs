@@ -37,3 +37,4 @@ interface TabProps {
   id?: string;
   /**
    * The `aria-controls` attribute for accessibility.
+   */
