@@ -48,3 +48,4 @@ const TabComponent: React.FC<TabProps> = ({
   id,
   ariaControls
 }) => {
+  const { activeIndex, setActiveIndex } = useContext(TabsContext);
