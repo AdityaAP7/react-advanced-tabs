@@ -47,3 +47,4 @@ const TabComponent: React.FC<TabProps> = ({
   onSelect,
   id,
   ariaControls
+}) => {
