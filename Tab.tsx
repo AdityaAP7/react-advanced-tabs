@@ -42,3 +42,4 @@ const TabComponent: React.FC<TabProps> = ({
   index,
   children,
   className = '',
+  activeClassName = '',
