@@ -52,3 +52,4 @@ const TabComponent: React.FC<TabProps> = ({
   const isActive = activeIndex === index;
   const handleClick = useCallback(() => {
     if (disabled) return;
+    setActiveIndex(index);
