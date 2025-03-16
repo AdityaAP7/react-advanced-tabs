@@ -45,3 +45,4 @@ const TabComponent: React.FC<TabProps> = ({
   activeClassName = '',
   disabled = false,
   onSelect,
+  id,
