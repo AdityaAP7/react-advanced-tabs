@@ -56,3 +56,4 @@ const TabComponent: React.FC<TabProps> = ({
     onSelect?.(index);
   }, [disabled, index, onSelect, setActiveIndex]);
   const handleKeyDown = useCallback((e: KeyboardEvent<HTMLButtonElement>) => {
+    if (disabled) return;
