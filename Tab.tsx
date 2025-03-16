@@ -57,3 +57,4 @@ const TabComponent: React.FC<TabProps> = ({
   }, [disabled, index, onSelect, setActiveIndex]);
   const handleKeyDown = useCallback((e: KeyboardEvent<HTMLButtonElement>) => {
     if (disabled) return;
+    // You can handle arrow key navigation or other keys here
