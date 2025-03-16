@@ -39,3 +39,4 @@ interface TabProps {
    * The `aria-controls` attribute for accessibility.
    */
 const TabComponent: React.FC<TabProps> = ({
+  index,
