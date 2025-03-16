@@ -54,3 +54,4 @@ const TabComponent: React.FC<TabProps> = ({
     if (disabled) return;
     setActiveIndex(index);
     onSelect?.(index);
+  }, [disabled, index, onSelect, setActiveIndex]);
