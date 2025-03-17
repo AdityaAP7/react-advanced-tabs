@@ -62,3 +62,4 @@ const TabComponent: React.FC<TabProps> = ({
         // if (e.key === 'ArrowLeft')  { ... }
 
     
+  }, [disabled]);
