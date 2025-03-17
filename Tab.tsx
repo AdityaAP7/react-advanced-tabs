@@ -72,3 +72,4 @@ const TabComponent: React.FC<TabProps> = ({
       disabled={disabled}
       className={`${className} ${isActive ? activeClassName : ''}`}
       onClick={handleClick}
+      onKeyDown={handleKeyDown}
