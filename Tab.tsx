@@ -65,3 +65,4 @@ const TabComponent: React.FC<TabProps> = ({
   }, [disabled]);
   return (
     <button
+      role="tab"
