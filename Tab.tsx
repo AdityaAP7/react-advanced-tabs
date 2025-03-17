@@ -59,3 +59,6 @@ const TabComponent: React.FC<TabProps> = ({
     if (disabled) return;
     // You can handle arrow key navigation or other keys here
     // if (e.key === 'ArrowRight') { ... }
+        // if (e.key === 'ArrowLeft')  { ... }
+
+    
