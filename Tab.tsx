@@ -77,4 +77,5 @@ const TabComponent: React.FC<TabProps> = ({
       {children}
     </button>
  );
-};
+};export const Tab = memo(TabComponent);
+
