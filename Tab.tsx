@@ -71,3 +71,4 @@ const TabComponent: React.FC<TabProps> = ({
       aria-selected={isActive}
       disabled={disabled}
       className={`${className} ${isActive ? activeClassName : ''}`}
+      onClick={handleClick}
