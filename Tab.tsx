@@ -77,3 +77,4 @@ const TabComponent: React.FC<TabProps> = ({
       {children}
     </button>
  );
+};
