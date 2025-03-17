@@ -66,3 +66,4 @@ const TabComponent: React.FC<TabProps> = ({
   return (
     <button
       role="tab"
+      id={id}
