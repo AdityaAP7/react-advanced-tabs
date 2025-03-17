@@ -74,3 +74,4 @@ const TabComponent: React.FC<TabProps> = ({
       onClick={handleClick}
       onKeyDown={handleKeyDown}
     >
+      {children}
