@@ -1,6 +1,6 @@
 // src/components/Tabs.tsx
 import React, { createContext, useState, ReactNode } from 'react';
-1234567890qwertyuio
+1234567890qwertyuiop
 interface TabsContextProps {
     activeIndex: number;
     setActiveIndex: (index: number) => void;
