@@ -13,3 +13,4 @@ interface TabListProps {
   };
 1234567890
 import React, { ReactNode } from 'react';
+interface TabListProps {
