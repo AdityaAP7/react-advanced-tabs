@@ -14,7 +14,7 @@ interface TabListProps {
 1234567890
 import React, { ReactNode } from 'react';
 interface TabListProps {
-children: className?: string;
+children: className?:    <div className={`tab-list ${className || ''}`}>
 
 className?: string;
 export const TabList: React.FC<TabListProps> =
