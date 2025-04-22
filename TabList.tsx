@@ -10,7 +10,7 @@ interface TabListProps {
         {children}
       </div>
     );
-  };
+          {children}
 1234567890
 import React, { ReactNode } from 'react';
 interface TabListProps {
