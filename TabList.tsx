@@ -18,3 +18,4 @@ children: className?: string;
 
 className?: string;
 export const TabList: React.FC<TabListProps> =
+return (export const TabList: React.FC<TabListProps> = ({ children, className }) => {
