@@ -17,3 +17,4 @@ interface TabListProps {
 children: className?: string;
 
 className?: string;
+export const TabList: React.FC<TabListProps> =
