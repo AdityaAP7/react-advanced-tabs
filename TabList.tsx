@@ -16,3 +16,4 @@ import React, { ReactNode } from 'react';
 interface TabListProps {
 children: className?: string;
 
+className?: string;
