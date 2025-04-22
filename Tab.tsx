@@ -7,7 +7,7 @@
 } from 'react';
 import { TabsContext } from './Tabs';
 interface TabProps {
-1
+12
   /**
    * The index of this tab within its Tabs parent.
    */
