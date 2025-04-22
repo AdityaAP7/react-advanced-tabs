@@ -12,4 +12,4 @@ interface TabListProps {
     );
   };
 1234567890
-qw
+import React, { ReactNode } from 'react';
