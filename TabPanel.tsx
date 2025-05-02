@@ -17,6 +17,6 @@ export const TabPanel: React.FC<TabPanelProps> = ({ index, children, className }
    </div>
   );
 };
-import React, { useContext } import { TabsContext } from './Tabs';
+import React, { useContext } import { TabsContext } from './interface TabPanelProps {
 
 
