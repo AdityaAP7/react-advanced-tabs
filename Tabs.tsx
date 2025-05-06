@@ -5,7 +5,7 @@ interface TabsContextProps {
     activeIndex: number;
     setActiveIndex: (index: number) => void;
   }
-12334
+123345
   export const TabsContext = createContext<TabsContextProps>({
     activeIndex: 0,
     setActiveIndex: () => {}
