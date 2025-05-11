@@ -18,4 +18,4 @@ children: className?:    <div className={`tab-list ${className || ''}`}>
 
 className?: string;
 export const TabList: React.FC<TabListProps> =
-return (export const TabList: React.FC<TabListProps> = ({ children, className }) => {
+return (export const TabList: React.FC<TabListProps> = ({ children, className }) => {import React, { ReactNode } from 'react';
