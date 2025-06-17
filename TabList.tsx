@@ -1,4 +1,4 @@
-wq0987654321987654321trewq21987654321ytewq876543214321987665432108987654321// src/components/TabList.tsx
+ewq0987654321987654321trewq21987654321ytewq876543214321987665432108987654321// src/components/TabList.tsx
 import React, { ReactNode } from 'react';
 interface TabListProps {
     children: ReactNode;
