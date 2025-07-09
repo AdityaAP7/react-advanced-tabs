@@ -1,4 +1,4 @@
-65432121987654321// App.tsx
+765432121987654321// App.tsx
 import React from 'react';
 import {
     Tabs,
