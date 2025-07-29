@@ -1,4 +1,4 @@
-wq1// src/components/TabList.tsx
+ewq1// src/components/TabList.tsx
 import React, { ReactNode } from 'react';
 interface TabListProps {
     children: ReactNode;
