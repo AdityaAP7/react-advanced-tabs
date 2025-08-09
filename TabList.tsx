@@ -1,4 +1,4 @@
-rewq21909876543210987654321
+trewq21909876543210987654321
     rewq1// src/components/TabList.tsx
 import React, { ReactNode } from 'react';
 interface TabListProps {
