@@ -1,5 +1,5 @@
 // App.tsx
-import React from 'react';
+
 import {
     Tabs,
     TabList,
