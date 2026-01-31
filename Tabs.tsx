@@ -1,4 +1,4 @@
-1098765432111// src/components/Tabs.tsx
+21098765432111// src/components/Tabs.tsx
 import React, { createContext, useState, ReactNode } from 'react';
 1234567890qwertyuiop
 interface TabsContextProps {
