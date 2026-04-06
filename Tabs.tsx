@@ -1,11 +1,11 @@
-0987654321// src/components/Tabs.tsx
+// src/components/Tabs.tsx
 import React, { createContext, useState, ReactNode } from 'react';
-1234567890qwertyuiop
+
 interface TabsContextProps {
     activeIndex: number;
     setActiveIndex: (index: number) => void;
   }
-12334578
+
   export const TabsContext = createContext<TabsContextProps>({
     activeIndex: 0,
     setActiveIndex: () => {}
